@@ -1,34 +1,38 @@
-*{
+/*Estilos generales*/
+
+body{
     margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+/*Header*/
+
 header{
-    background-color:#e5e5e5;
+    background-color:#E5E5E5;
+    text-align: center; /*centra el h1 y la img*/
 }
 
 .foto-perfil{
-    display: block;
-    margin: auto;
     height: 200px;
     width: 200px;
 }
 
 h1{
     font-size: 35px;
-    text-align: center;
     padding: .5rem;
     font-weight: bold;
 }
 
-.info-personal{
+/*Main*/
+
+.container{
     margin: 8rem auto;
-    width: 70%;
+    max-width: 70%;
 }
 
 h1, h2{
-    background-color: #c4c4c4;
+    background-color: #C4C4C4;
     color:#005677;
-    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 10px;    
     text-transform: uppercase;
 }
@@ -38,7 +42,7 @@ h2{
 }
 
 ul>li>span{
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -51,16 +55,24 @@ ul>li, dl>dt{
 }
 
 span{
-    font-weight: bold;
+    font-weight: 700; /*Negrita*/
 }
 
 .margen-izquierdo, .detalle{
-    margin-left:5rem;
+    margin-left: 75px;
 }
+
+/*Footer*/
 
 footer{
     background-color:#005677;
     text-align: center;
-    display: block;
-    color:#f5e8d6;
+    color:#F5E8D6;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+a{
+    color: #F5E8D6;
+    text-decoration: none;
 }
