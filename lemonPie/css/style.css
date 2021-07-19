@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "limon";
+    src: url(../fuente/limon.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+
+a{
+    color:#000000;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.banner{
+    background-color: rgb(173, 70, 70);
+    background-image: url("../img/lemon-pie\ 1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 460px;
+    text-align: end;
+    
+}
+
+.home{
+    font-family:"limon";
+    font-size: 150px;
+    color:rgba(114, 130, 221, 0.863);
+}
+
+.info{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Main*/
+.fa-shopping-basket{
+    color:#45a7d4;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3{
+    font-style: italic;
+}
+
+.merengue{
+    color:coral;
+    text-decoration: underline;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: #ccc;    
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
