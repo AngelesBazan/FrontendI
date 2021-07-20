@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: 'Roboto-Regular';
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header*/
+
+.menu-idioma{
+    background-color: #222222;
+    color: #f3f3f3;
+    height: 25px;
+    font-size: 12px;
+    align-items: center; /*alineación vertical*/
+    padding: 0px 70px 0px 90px;
+    display: flex; /*Para alinear el P con Ul*/
+}
+
+.menu-idioma ul{
+    display: flex; /*Para alinear los li del ul*/
+}
+
+.menu-idioma ul li{ /*idioma y moneda - provisorio hasta alinear correctamente*/
+    margin: 0px 10px;
+    position: relative;
+    left: 870px;
+}
+
+.menu-navegacion{
+    background-color: #f0a83e;
+    padding: 25px 50px;
+    display: flex; /*alinea logo y links al mismo renglón*/
+    align-items: center; /*centrado vertical*/
+    justify-content: space-between; /*separa logo y links*/
+}
+
+h1{ /*FrontCat&Dog*/
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h1 span{ /*"Front"*/
+    color: #3C2313;
+}
+
+.links-principal, .logo{
+    display: flex; /*alinea horizontal logo con imgs y links ppales*/
+    color: #ffffff;
+}
+
+.links-principal li a{
+    color: #ffffff;
+    margin: 0px 7px;
+}
+
+/*Main*/
+
+.banner{
+    background-image: url('../img/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.bienvenida{
+    background-color: #ffffff;
+    color: #3C2313;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 36px;
+    font-weight: 550;
+    width: 440px;
+    height: 65px;
+    position: relative;
+    left: 810px;
+    top: 200px;
+}
+
+.descuento{
+    color: #3C2313;
+    font-size: 20px;
+    position: relative;
+    left: 915px;
+    top: 215px;
+}
+
+.boton{
+    background-color: #f0a83e;
+    color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 180px;
+    height: 65px;
+    margin: 10px;
+    position: relative;
+    left: 940px;
+    top: 220px;
+}
+
+.destacados{
+    text-align: center;
+}
+
+#patita-central{
+    color: #F0A83E;
+    font-size: 80px;
+    margin: 20px;
+}
+
+.productos{
+    color: #3C2313;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.categorias a{
+    font-size: 20px;
+    color: #666666;
+    margin: 10px;
+}
+
+.tarjetas{
+    color: #3C2313;
+    position: relative;
+    height: 600px;
+}
+
+.card1{
+    background-image: url(../img/churrasquito.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 260px;
+    height: 300px;
+    position:absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.card2{
+    background-image: url(../img/comedero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+.card3{
+    background-image: url(../img/Huesito.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    left: 850px;
+    top: 100px;
+}
+
+b{
+    color: #F0A83E;
+}
+
+.detalle{
+    position: absolute;
+    top: 230px;
+    width: 260px;
+    padding: 20px 50px;
+    background-color: #fbfaf6;
+}
+
+/* Espacio para Formulario*/
+
+
+/*Footer*/
+
+footer{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.suscribete{
+    background-color: #F0A83E;
+    height: 75px;
+    padding: 25px;
+    font-weight: 700;
+}
+
+.fa-envelope{ /*Icono Sobre*/
+    margin: 0px 10px;
+}
+
+.contact{
+    background-color: #3C2313;
+    height: 350px;
+    position: relative;
+}
+
+    /*Iconos*/
+.fa-map-marked-alt, .fa-phone-alt, .contact .fa-envelope{
+    background-color: #8A8787;
+    border: 5px solid #786960;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px 30px;
+    font-size: 40px;
+}
+
+.localidad{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+} 
+
+.telefono{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.correo{
+    position: absolute;
+    left: 50px;
+    top: 220px;
+}
+
+.contact h4{
+    font-size: 12px;
+    color: #8A8787;
+    position: absolute;
+    left: 135px;
+    top: 80px;
+}
+
+.copy{
+    background-color: #222222;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.copy a{
+    color:#ffffff;
+}

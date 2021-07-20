@@ -5,63 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
     </head>
 <body>
     <header>
-        <div>
+        <div class="menu-idioma">
             <p>Grandes ofertas en comederos</p>
-            <ul type="none">
+            <ul>
                 <li>Español</li>
                 <li>ARG$</li>
             </ul>
         </div>
-        <div>
-            <a href="#Home"><img src="img/Cat.svg" alt="logo-gato"><h1>Front<span>Cat&Dog</span></h1><img src="img/Dog.svg" alt="logo-perro"></a>
-            <nav>
-                <ul type="none">
-                    <li><a href="#"><img src="img/pawprint 1.svg" alt="icono-patita">Categorías</a></li>
-                    <li><a href="#"><img src="img/pawprint 1.svg" alt="icono-patita">Pets</a></li>
-                    <li><a href="#"><img src="img/pawprint 1.svg" alt="icono-patita">Nosotros</a></li>
-                    <li><a href="#"><img src="img/pawprint 1.svg" alt="icono-patita">Contactanos</a></li>
-                </ul>
-            </nav>
+        <div class="menu-navegacion">
+            <a class="logo" href="index.html"><img src="img/Cat.svg" alt="logo-gato"><h1><span>Front</span>Cat&Dog</h1><img src="img/Dog.svg" alt="logo-perro"></a>
+            <ul class="links-principal">
+                <li><a href="#"><i class="fas fa-paw"></i> Categorías </a></li>
+                <li><a href="#"><i class="fas fa-paw"></i> Pets </a></li>
+                <li><a href="#"><i class="fas fa-paw"></i> Nosotros </a></li>
+                <li><a href="#"><i class="fas fa-paw"></i> Contactanos </a></li>
+            </ul>
         </div>
     </header>
     <main>
-        <section id="Home">
-            <div>
-                <img src="img/bowl-and-pet-daities-on-green-background 1.svg" alt="imagen background">
-                <h2>¡Es un placer tenerte aquí!</h2>
-                <h4">¡Comederos en descuento!</h4>
-                <h4>COMEDEROS</h4>
+        <section class="banner">
+            <div class="container-banner">
+                <div class="bienvenida">¡Es un placer tenerte aquí!</div>
+                <div class="descuento">¡Comederos en descuento!</div>
+                <div class="boton">COMEDEROS</div>
             </div>
         </section>
-        <section>
+        <section class="destacados">
             <div>
-                <img src="img/pawprint 1.svg" alt="imagen patita">
-                <h2>Productos Destacados</h2>
-                <p>Comederos - Accesorios - Comida</p>
+                <i class="fas fa-paw" id="patita-central"></i>
+                <h2 class="productos">Productos Destacados</h2>
+                <p class="categorias"><a href="#">Comederos</a> - <a href="#">Accesorios</a> - <a href="#">Comida</a></p>
             </div>
-            <div>
-                <img src="img/churrasquito.svg" alt="churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </div>
-            <div>
-                <img src="img/comedero.svg" alt="comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div>
-                <img src="img/Huesito.svg" alt="huesito">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
+            <div class="tarjetas">
+                <div class="card1">
+                    <div class="detalle">
+                        <h4>Juguete Churrasquito</h4>
+                        <p><b>$150</b></p>
+                    </div>
+                    
+                </div>
+                <div class="card2">
+                    <div class="detalle">
+                    <h4>Comedero para perro</h4>
+                    <p><b>$250</b></p> 
+                    </div>
+                    
+                </div>
+                <div class="card3">
+                    <div class="detalle">
+                        <h4>Juguete Huesito</h4>
+                    <p><b>$650</b></p>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section class="formulario">
+
+        </section>
+
     </main>
     <footer>
-        <hr>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <div class="suscribete">
+            <h3><i class="far fa-envelope"></i> Suscríbete para más novedades</h3>
+        </div>
+
+        <div class="contact">
+            <div class="localidad">
+                <h3><i class="fas fa-map-marked-alt"></i>Localidad</h3>
+                <h4>Calle - Provincia</h4>
+            </div>
+            <div class="telefono">
+                <h3><i class="fas fa-phone-alt"></i>Número de teléfono</h3>
+                <h4>Número de teléfono</h4>
+            </div>
+            <div class="correo">
+                <h3><i class="far fa-envelope"></i>Correo electrónico</h3>
+                <h4>Dirección de correo</h4>
+            </div>
+        </div>
+
+        <div class="copy">
+            <a href="https://github.com/AngelesBazan/">&copy; Todos los derechos reservados a Angeles Bazan</a>
+        </div>
     </footer>
 </body>
 </html>
