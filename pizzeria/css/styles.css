@@ -1,0 +1,159 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: 'Roboto-Regular';
+    font-size: 22px;
+    background-color: #f3f3f3;
+}
+
+/*Header*/
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#f3f3f3;
+}
+
+header{
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    
+}
+
+header .navbar{
+    display:flex;
+    align-items: center; /*centra eje y*/
+    text-align: center;
+}
+
+.navbar ul{
+    display: flex; /*links en eje x*/
+}
+
+.links li{
+    padding: 10px;
+}
+
+.logo{ /*Foto pizza + h1*/
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo img{ /* Foto pizza*/
+    height: 130px;
+    width: 130px;
+}
+
+
+h1, h3{ /*"Pizza&Front"*/
+    color: #f3f3f3;
+    padding: 15px;
+}
+
+.pizza{ /*h1*/
+    color: #39B24A;
+}
+
+.front{ /*h1*/
+    color: #FC200C;
+}
+
+
+/*Main*/
+
+.container{
+    display: flex;
+    margin: 34px 24px;
+    
+}
+
+.envio{
+    background-image: url(../img/delivery.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.envio>h3{
+    color: #FC200C;
+}
+
+.envio .comprando{
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.podio{
+    padding: 45px;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 900;
+}
+
+.ranking h3{
+    color: #FC200C;
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+}
+
+.ranking h4{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.ranking ol li{
+    margin: 6px;
+}
+
+.ingrediente{
+    
+}
+
+/*Footer*/
+
+footer{
+    background-color: #222;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*centra eje y*/
+    padding: 20px;
+}
+
+.links-footer ul li{
+    margin: 12px;
+}
+
+.logo-footer{
+    display: flex;
+}

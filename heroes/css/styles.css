@@ -1,0 +1,60 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: 'Roboto-Regular';
+}
+
+/*Header*/
+.descuento{
+    background-color: #1cd1b0;
+    padding: 12px;
+    font-size: 20px;
+}
+header{
+    background: #00669f;
+    padding: 10px;
+    height: 100px;
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+/*Main*/
+
+main{
+    height: 80vh;
+}
+
+.card-text{
+    
+}
+
+.img-card{
+    background-image: url(../img/bgbatman.svg);
+}
+
+.fa-heart{
+    color:palevioletred;
+}
+
+/*position absolute para la imagen de los perfiles*/
+
+/*Footer*/
+
+footer{
+    height: 50px;
+    background: #00669f;
+    color:#ffffff;
+}
