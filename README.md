@@ -11,3 +11,7 @@ Te invito a seguir los links que se encuentran debajo para visualizar el código
 ⚡ CV de Batman: https://angelesbazan.github.io/FrontendI/cvBatman
 
 ⚡ CV Personal: https://angelesbazan.github.io/FrontendI/cvPersonal
+
+⚡ Heroes: https://angelesbazan.github.io/FrontendI/heroes
+
+⚡ Pizzería: https://angelesbazan.github.io/FrontendI/pizzeria
