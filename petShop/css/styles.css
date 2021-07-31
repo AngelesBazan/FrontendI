@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%; /* 1rem = 10px*/
+}
+
 @font-face {
     font-family: 'Roboto-Regular';
     src: url(../fonts/Roboto-Regular.ttf);
@@ -26,7 +30,7 @@ a{
     background-color: #222222;
     color: #f3f3f3;
     height: 25px;
-    font-size: 12px;
+    font-size: 1.2rem;
     align-items: center; /*alineación vertical*/
     padding: 0px 70px 0px 90px;
     display: flex; /*Para alinear el P con Ul*/
@@ -51,7 +55,7 @@ a{
 }
 
 h1{ /*FrontCat&Dog*/
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
@@ -76,6 +80,14 @@ h1 span{ /*"Front"*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.titulos{
+    display:inline-block;
+    justify-content: center;
 }
 
 .bienvenida{
@@ -83,21 +95,15 @@ h1 span{ /*"Front"*/
     color: #3C2313;
     padding: 10px;
     border-radius: 5px;
-    font-size: 36px;
+    font-size: 3.6px;
     font-weight: 550;
     width: 440px;
     height: 65px;
-    position: relative;
-    left: 810px;
-    top: 200px;
 }
 
 .descuento{
     color: #3C2313;
-    font-size: 20px;
-    position: relative;
-    left: 915px;
-    top: 215px;
+    font-size: 2rem;
 }
 
 .boton{
@@ -105,13 +111,10 @@ h1 span{ /*"Front"*/
     color: #ffffff;
     padding: 20px 30px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 2rem;
     width: 180px;
     height: 65px;
     margin: 10px;
-    position: relative;
-    left: 940px;
-    top: 220px;
 }
 
 .destacados{
@@ -120,27 +123,32 @@ h1 span{ /*"Front"*/
 
 #patita-central{
     color: #F0A83E;
-    font-size: 80px;
+    font-size: 8rem;
     margin: 20px;
 }
 
 .productos{
     color: #3C2313;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
 
 .categorias a{
-    font-size: 20px;
+    font-size: 2rem;
     color: #666666;
     margin: 10px;
 }
 
 .tarjetas{
     color: #3C2313;
-    position: relative;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1, card2, card3{
+    justify-content: center;
+
 }
 
 .card1{
@@ -149,9 +157,9 @@ h1 span{ /*"Front"*/
     background-size: contain;
     width: 260px;
     height: 300px;
-    position:absolute;
+    /* position:absolute;
     left: 150px;
-    top: 100px;
+    top: 100px; */
 }
 
 .card2{
@@ -160,9 +168,9 @@ h1 span{ /*"Front"*/
     background-size: contain;
     width: 260px;
     height: 300px;
-    position: absolute;
+    /* position: absolute;
     left: 500px;
-    top: 100px;
+    top: 100px; */
 }
 
 .card3{
@@ -171,9 +179,9 @@ h1 span{ /*"Front"*/
     background-size: contain;
     width: 260px;
     height: 300px;
-    position: absolute;
+    /* position: absolute;
     left: 850px;
-    top: 100px;
+    top: 100px; */
 }
 
 b{
@@ -181,8 +189,8 @@ b{
 }
 
 .detalle{
-    position: absolute;
-    top: 230px;
+    /* position: absolute;
+    top: 230px; */
     width: 260px;
     padding: 20px 50px;
     background-color: #fbfaf6;
@@ -195,7 +203,7 @@ b{
 
 footer{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .suscribete{
@@ -222,7 +230,7 @@ footer{
     border-radius: 50%;
     padding: 10px;
     margin: 20px 30px;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .localidad{
@@ -244,7 +252,7 @@ footer{
 }
 
 .contact h4{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #8A8787;
     position: absolute;
     left: 135px;
@@ -254,7 +262,7 @@ footer{
 .copy{
     background-color: #222222;
     height: 20px;
-    font-size: 14px;
+    font-size: 1.4rem;
     text-align: center;
 }
 
