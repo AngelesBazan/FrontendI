@@ -54,7 +54,7 @@ a{
     font-size: 2rem;
 }
 
-.fa-bars{
+.fa-bars{ /*Hamburguesa*/
     display: none;
 }
 
@@ -260,13 +260,12 @@ h6 span{
 @media screen and (max-width: 768px) { /*Vista tablet*/
     
     /*navbar*/
-    .menu-idioma, .links-principal{
+    .menu-idioma, #ocultar{
         display: none;
     }
 
     .fa-bars{
         display: unset;
-        color: #f3f3f3;
     }
 
     /*main*/
