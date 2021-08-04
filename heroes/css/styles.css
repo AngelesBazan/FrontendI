@@ -27,22 +27,39 @@ a{
 /*Header*/
 .descuento{
     background-color: #1cd1b0;
-    padding: 12px;
+    padding: .5rem;
     font-size: 2rem;
 }
-header{
+h1{
     background: #00669f;
     color: #ffffff;
     font-size: 2.5rem;
-    padding: 0rem 3rem;
-    height: 130px;
     position: sticky;
-    width: 100vw;
-    z-index: 999; /*Capa superior*/
+    width: 100%;
+    z-index: 999;
     top: 0;
     display: flex;
-    align-items: center; /*Centra eje Y*/
-    box-shadow: 0 10px 10px -3px #808080;
+    align-items: center;
+}
+
+nav{
+    background-color: #001D2D;
+    color: #ffffff;
+    width: 100%;
+    font-size: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    margin: 2rem;
+}
+
+nav ul li{
+    list-style-type: none;
 }
 
 /*Main*/
@@ -133,7 +150,7 @@ header{
 
 footer{
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background: #00669f;
     color:#ffffff;
     display: flex;
@@ -190,4 +207,104 @@ footer{
     footer{
         font-size: 1.3rem;
     }
+}
+
+/* Pagina Login*/
+
+.main-login, .main-singup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login, .singup{
+    height: 60vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+}
+
+.login h2, .singup h2{
+    font-size: 3.5rem;
+    margin: 2.5rem 0rem;
+    color: #333333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+    
+}
+
+.input-email, .input-pass, .input-nombre, .input-pais{
+    margin: 1rem 0rem;
+    padding: 1rem;
+}
+
+.email, .pass, .nombre, .pais, .mensaje{
+    display: none;
+}
+
+.entrar{
+    margin: 3rem 0rem;
+    border-radius: 15px;
+    padding: 1rem;
+    border: 1px solid #1CD1B0;
+    background-color: #1CD1B0;
+    font-weight: 700;
+}
+
+.sin-cuenta{
+    color: #808080;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.sin-cuenta span{
+    color: #00669F;
+}
+
+/*Página Registro*/
+
+.botones{
+    display:inline-flex;
+}
+
+.resetear, .registrar{
+    border-radius: 12px;
+    font-weight: 500;
+    padding: .6rem;
+    margin: 2rem .5rem;
+    width:20vw;
+}
+
+.resetear{
+    background-color: #888;
+    border: 1px solid #888;
+    color: #ffffff;
+}
+
+.registrar{
+    background-color: #1CD1B0;
+    border: 1px solid #1CD1B0;
+}
+
+.ingresa{
+    color: #00669F;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.ingresa span{
+    color: #222222;
+}
+
+/*Página de Contacto*/
+
+textarea{
+    resize: none;
 }
