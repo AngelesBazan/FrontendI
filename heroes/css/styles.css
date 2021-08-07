@@ -137,6 +137,15 @@ nav ul li{
     font-size: 1.5rem;
 }
 
+.card-button:hover{
+    background-color: #F3F3F3;
+    border: 1px solid #1cd1b0;
+}
+
+a:hover{
+    color:#1cd1b0;
+}
+
 .fa-plus-circle{
     position: absolute;
     top: 830px;

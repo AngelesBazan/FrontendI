@@ -45,6 +45,18 @@ a{
     padding: 2rem;
 }
 
+.menu-idioma ul li a{
+    color: #ffffff;
+}
+
+.menu-idioma ul li a::after{
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
 .menu-navegacion{
     background-color: #f0a83e;
     padding: 2.5rem 5rem;
@@ -52,6 +64,7 @@ a{
     align-items: center; /*centrado vertical*/
     justify-content: space-between; /*separa logo y links*/
     font-size: 2rem;
+    height: 15vh;
 }
 
 .fa-bars{ /*Hamburguesa*/
@@ -74,8 +87,27 @@ h1 span{ /*"Front"*/
 
 .links-principal li a{
     color: #ffffff;
-    padding: 1.2rem;
+    padding: .5rem;
 }
+
+#ocultar:hover{
+    background-color: #82d8bb81;
+    border-radius: 15px;
+    padding: .3rem .3rem .3rem 0rem;
+}
+
+.links-principal li:nth-child(5)::before{
+    content: "";
+}
+
+.links-principal li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1b0";
+    color: #f3f3f3;
+    margin-left: .5rem;
+}
+
 
 /*Main*/
 
@@ -124,6 +156,19 @@ h1 span{ /*"Front"*/
     margin: 1rem auto;
 }
 
+.boton a{
+    color: #ffffff;
+}
+
+.boton:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    color:#3c1313;
+}
+
+.boton a:hover{
+    color:#3c1313;
+}
+
 .destacados{
     text-align: center;
 }
@@ -147,6 +192,10 @@ h1 span{ /*"Front"*/
     margin: 1rem;
 }
 
+.categorias a:hover{
+    color: #f0a83e;
+}
+
 .tarjetas{
     color: #3C2313;
     display: flex;
@@ -161,6 +210,10 @@ h1 span{ /*"Front"*/
     background-size: cover;
     width: 320px;
     height: 350px;
+}
+
+.card1:hover, .card2:hover, .card3:hover{
+    border: 1px solid #3C2313;
 }
 
 .card1{
@@ -179,14 +232,137 @@ b{
     color: #F0A83E;
 }
 
-/* Espacio para Formulario*/
+/* Formulario*/
 
+fieldset{
+    border: 0px;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.formulario h3{
+    color:#3C2313;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input{
+    border-radius: 20px;
+    border: 1px solid #3c1313;
+    background-color: #3C2313;
+    padding: 1.5rem 2.5rem;
+    width: 90%;
+    margin: .6rem;
+    color: #ffffff;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem 10rem 0rem;
+}
+
+.botones input{
+    color:#ffffff;
+    font-size: 1.7rem;
+    border-radius: 20px;
+    border: none;
+    padding: 1.3rem 7rem;
+    width: 10rem;
+    margin: .5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones input[type="reset"]{
+    background-color: #8A8787;
+}
+
+.botones input[type="reset"]:hover{
+    background-color: #82d8bbda;
+}
+
+.botones input[type="submit"]{
+    background-color: #F0A83E;
+}
+
+.botones input[type="submit"]:hover{
+    background-color: #82d8bbda;
+}
+
+input[type="submit"], input[type="reset"]{
+    cursor: pointer;
+}
 
 /*Footer*/
 
 footer{
     color: #ffffff;
     font-size: 2rem;
+}
+
+.naranja{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suscribete{
+    background-color: #F0A83E;
+    height: 14vh;
+    display: flex;
+}
+
+.suscribete>h3{
+    display: flex;
+    align-items: center;
+}
+
+.botones-footer{
+    display: flex;
+    margin: 2rem 0rem;
+    padding-right: 6rem;
+}
+
+.botones-footer input{
+    border-radius: 20px;
+    border: 0px;
+    padding: 1.5rem;
+}
+
+.botones-footer input[type="correo"]{
+    width: 30rem;
+    margin-right: 1rem;
+}
+
+.botones-footer input[type="submit"]{
+    background-color: #3C2313;
+    color: #ffffff;
+}
+
+.botones-footer input[type="submit"]:hover{
+    background-color: #82d8bbda;
+}
+
+
+.fa-envelope{ /*Icono Sobre*/
+    margin: 0px 10px;
+    font-size: 4rem;
+}
+
+.contact{
+    height: 35rem;
+    width: 75vw;
+    padding: 2rem;
 }
 
 .marroncito{
@@ -203,28 +379,6 @@ footer{
 
 h6 span{
     color: #f0a83e;
-}
-
-.suscribete{
-    background-color: #F0A83E;
-    height: 14vh;
-    display: flex;
-}
-
-.suscribete>h3{
-    display: flex;
-    align-items: center;
-}
-
-.fa-envelope{ /*Icono Sobre*/
-    margin: 0px 10px;
-    font-size: 4rem;
-}
-
-.contact{
-    height: 35rem;
-    width: 75vw;
-    padding: 2rem;
 }
 
 /*Iconos*/
@@ -278,7 +432,21 @@ h6 span{
         align-items: center;
     }
 
+    /*Formulario*/
+    .botones input{
+        width: 40vw;
+    }
+
     /*footer*/
+
+    .naranja{
+        flex-direction: column;
+    }
+
+    .botones-footer input[type="correo"]{
+        margin-left: 3rem;
+    }
+
     .marroncito{
         flex-direction: column-reverse;
         padding: 4rem;
