@@ -112,7 +112,7 @@ h1 span{ /*"Front"*/
 /*Main*/
 
 .banner{
-    background-image: url('../img/bg.svg');
+    background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
