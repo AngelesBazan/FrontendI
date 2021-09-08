@@ -15,3 +15,5 @@ Te invito a seguir los links que se encuentran debajo para visualizar el código
 ⚡ Heroes: https://angelesbazan.github.io/FrontendI/heroes
 
 ⚡ Pizzería: https://angelesbazan.github.io/FrontendI/pizzeria
+
+⚡ Viajes: https://angelesbazan.github.io/FrontendI/viajes/
